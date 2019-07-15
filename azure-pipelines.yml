@@ -1,0 +1,7 @@
+import request 
+
+from bs4 import BeautifulSoup
+import csv
+
+# Collect and parse first page
+page = requests.get('https://web.archive.org./web')
